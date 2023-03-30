@@ -1,0 +1,195 @@
+.pageNav {
+  width: auto;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  color: whitesmoke;
+  background-color: #444444;
+}
+
+.pageNavList {
+  padding: 0;
+  justify-content: center;
+}
+
+.certNav {
+  background-color: #fafafa;
+}
+
+.certNavMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  background-color: #fafafa;
+  padding-bottom: 6vw;
+}
+
+.certNavHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.certNavHeadingText {
+  font-size: 2.5vw;
+  font-weight: 100;
+  color: #444444;
+  padding: 3vw;
+
+}
+.certNavOption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 18vw;
+  gap: 2vw;
+  background-size: cover, contain;
+  background-position: center;
+  font-size: 2.5vw;
+  color: #fafafa;
+  margin: 0;
+  transition: all 0.75s ease;
+  text-decoration: none;
+  }
+
+  .certNavOption:hover {
+    outline: .75vw solid #444444da;
+    outline-offset: -.75vw;
+    background-size: 105%;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+
+#certNavOptionA {
+  background-size: 115%;
+}
+
+#certNavOptionB {
+  background-position: center calc(-1.8vw);
+}
+
+  #certNavOptionA:hover {
+    background-size: 120%;
+
+  }
+
+  #certNavOptionB:hover {
+
+  }
+
+
+
+.textWhitesmoke {
+  color: whitesmoke;
+}
+
+
+.certContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 6vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.certHeading {
+  display: flex;
+  padding: 2vw 0vw 2vw 0vw;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+  margin: 0;
+}
+
+.certDoc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6vw;
+}
+
+.certRef {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #444444;
+  background-color: white;
+  padding: 2vw;
+  border-radius: .75vw;
+  width: fit-content;
+}
+
+.certRefText {
+  display: flex;
+  flex-direction: column;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+#universityMajor {
+  text-align: center;
+  margin: 1vw 0 0vw 0;
+}
+
+.certRefDate {
+  color: #727272;
+  margin: 1vw 0 0 0;
+}
+
+#certLastContainer {
+  padding-bottom: 6vw;
+}
+
+#certConclusion {
+  color: whitesmoke;
+  width: 60%;
+  padding: 2vw 0 2vw 0;
+  font-size: 2vw;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  line-height: 3vw;
+}
+
+h3 {
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h4 {
+  margin: 0px 0px 0px 0px;
+}
+
+h5 {
+  margin: 10px 0px 30px 0px;
+  color: #b1b1b1;
+}
+
+h6 {
+
+}
+
+@media (max-width: 770px) {
+  .certRef {
+    margin: 0;
+  }
+  h3 {
+    font-size: 2.5vw;
+  }
+
+  h4 {
+    font-size: 2vw;
+  }
+
+  h5 {
+    font-size: 1.5vw;
+  }
+}
+  
