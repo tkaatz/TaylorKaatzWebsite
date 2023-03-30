@@ -90,7 +90,7 @@
 .certContainer {
   display: flex;
   flex-direction: column;
-  padding-top: 6vw;
+  padding-top: 0;
   justify-content: center;
   align-items: center;
 }
@@ -121,8 +121,10 @@
   background-color: white;
   padding: 2vw;
   border-radius: .75vw;
-  width: fit-content;
+  width: 90%;
 }
+
+
 
 .certRefText {
   display: flex;
@@ -144,6 +146,7 @@
 }
 
 #certLastContainer {
+  padding-top: 6vw;
   padding-bottom: 6vw;
 }
 
@@ -175,6 +178,31 @@ h5 {
 h6 {
 
 }
+
+@media (max-width: 1200px) {
+  
+  .certRef {
+    width: 120%;
+  }
+
+  #certConclusion {
+    width: 80%;
+    font-size: 2.5vw;
+    line-height: 4vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .certRef {
+    width: 140%;
+  }
+  #certConclusion {
+    width: 90%;
+    font-size: 3vw;
+    line-height: 5vw;
+  }
+}
+
 
 @media (max-width: 770px) {
   .certRef {
