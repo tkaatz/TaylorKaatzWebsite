@@ -92,3 +92,9 @@ main {
   height: 3vw;
   font-size: 1.5vw;
 }
+
+@media (max-width: 1000px) {
+  .contactMain {
+    width:;
+  }
+}
