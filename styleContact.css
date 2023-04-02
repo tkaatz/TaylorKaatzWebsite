@@ -1,5 +1,5 @@
 .contact {
-  font-size: 24px;
+  font-size: 1.5vw;
   font-weight: 150;
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: center;
@@ -10,7 +10,8 @@
 }
 
 .contactHeading {
-  font-size: 36px;
+  font-size: 3vw;
+  padding: 1vw
 }
 
 section {
@@ -21,7 +22,7 @@ section {
 }
 
 .contactMain {
-  margin: 160px;
+  margin: 8vw;
   border-radius: 1vw;
 }
 
@@ -31,10 +32,10 @@ main {
   justify-content: flex-start;
   align-items: center;
   background-color: rgba(245, 245, 245, 0.9);
-  margin: 30px;
+  margin: 1.56vw;
   width: fit-content;
   height: fit-content;
-  padding: 30px;
+  padding: 1.6vw;
 
 
 }
@@ -44,10 +45,10 @@ main {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  padding: 12px 0;
+  padding: 1vw 0;
   width: 100%;
   height: 100%;
-  gap: 24px;
+  gap: 3vw;
 }
 
 .divLocation {
@@ -55,26 +56,26 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 24px 0;
+  padding: 2vw 0;
   width: 100%;
   height: 100%;
-  gap: 12px;
+  gap: .625vw;
 }
 
 .logoStandard {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70px;
-  height: 70px;
+  width: 3vw;
+  height: 3vw;
 }
 
 .logoText {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70px;
-  font-size: 24px;
+  width: 3vw;
+  font-size: 1.5vw;
 }
 
 .locationText {
@@ -82,12 +83,12 @@ main {
   justify-content: center;
   align-items: center;
   width: 100%;
-  font-size: 24px;
+  font-size: 1.5vw;
 }
 
 .div a {
   display: flex;
   align-items: center;
-  height: 70px;
-  font-size: 24px;
+  height: 3vw;
+  font-size: 1.5vw;
 }

@@ -112,6 +112,8 @@
   gap: 6vw;
 }
 
+
+
 .certRef {
   display: flex;
   flex-direction: column;
@@ -121,10 +123,11 @@
   background-color: white;
   padding: 2vw;
   border-radius: .75vw;
-  width: 90%;
 }
 
-
+#certDocument {
+  clip
+}
 
 .certRefText {
   display: flex;
@@ -181,7 +184,7 @@ h6 {
 
 @media (max-width: 1200px) {
   
-  .certRef {
+  #certDocument {
     width: 120%;
   }
 
@@ -193,7 +196,7 @@ h6 {
 }
 
 @media (max-width: 800px) {
-  .certRef {
+  #certDocument {
     width: 140%;
   }
   #certConclusion {
@@ -205,7 +208,7 @@ h6 {
 
 
 @media (max-width: 770px) {
-  .certRef {
+  #certDocument {
     margin: 0;
   }
   h3 {
