@@ -71,19 +71,19 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 16vw;
+  width: 18vw;
 }
 
 .aboutMeHeader {
   font-size: 1.5vw;
   border-bottom: .15vw solid #424242;
-  margin: 1.5vw 0;
+  padding: 1.5vw 0 0 0;
   color: #424242;
 }
 
 .verticalLine {
   border-right: .1vw solid #424242;
-  height: 28vw;
+  height: 29vw;
   width: 0;
 }
 
@@ -101,19 +101,27 @@ section {
   justify-content: center;
   align-items: flex-start;
   margin: 0;
-  height: 3vw;
+  padding: 1.2vw 0 0 0;
   font-size: .85vw;
+  color: black;
 }
 
 .aboutMeTextBold{
-  margin: 0 0 0.5vw 0;
+  padding: 1.2vw 0 .8vw 0;
   font-size: 1vw;
+  color: black;
+}
+
+.aboutMeTextBold:hover {
+  text-decoration: underline;
 }
 
 #sdmpText {
   margin: 0;
   align-items: flex-start;
   font-size: .85vw;
+  color: #424242;
+  max-width: 16vw;
 }
 
 body {
@@ -162,7 +170,7 @@ main {
   }
 
   .aboutMeContentContainer {
-  width: 29vw;
+  width: 31vw;
   }
 .aboutMeImage {
   height: 15vw;
@@ -173,26 +181,27 @@ main {
 .aboutMeHeader {
   font-size: 2.5vw;
   border-bottom: 0.2vw solid #424242;
-  margin: 2vw 0;
+  padding: 2vw 0 0 0;
 }
 
 .aboutMeText {
-  height: 4vw;
+  padding: 2vw 0 0 0;
   font-size: 1.5vw;
 }
 
 .aboutMeTextBold {
-  margin: 0 0 1.5vw 0;
   font-size: 1.8vw;
+  padding: 2vw 0 1.5vw 0;
+
 }
 
 #sdmpText {
   font-size: 1.5vw;
-  width: 28vw;
+  max-width: 28vw;  
 }
 
 .verticalLine {
-  height: 40vw;
+  height: 48vw;
 }
 
 }
@@ -259,26 +268,26 @@ main {
   }
   
   .aboutMeHeader {
-    font-size: 4vw;
+    font-size: 3.6vw;
     border-bottom: 0.3vw solid #424242;
-    margin: 4vw 0;
+    padding: 3vw 0 0 0;
   }
   
   .aboutMeText {
-    height: 6vw;
-    font-size: 1.8vw;
+    font-size: 1.6vw;
+    padding: 2vw 0 0 0;
   }
   
   .aboutMeTextBold {
-    margin: 0 0 1.5vw 0;
-    font-size: 2vw;
+    padding: 2vw 0 1.5vw 0;
+    font-size: 1.8vw;
   }
   
   #sdmpText {
-    font-size: 1.8vw;
-    width: 30vw;
+    font-size: 1.5vw;
+    max-width: 30vw;
   }
   
   .verticalLine {
-    height: 54vw;
+    height: 53vw;
   }
