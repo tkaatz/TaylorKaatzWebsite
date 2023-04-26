@@ -4,7 +4,7 @@ A professional website for Taylor Kaatz, a GIS Analyst, showcasing his experienc
 
 The website can be accessed [here](https://tkaatz.github.io/website/).
 
-![screenshot of website](images/website_screenshot.jpg)
+![screenshot of website](images/content/website_screenshot.jpg)
 
 # Summary
 This project is a personal website for Taylor Kaatz, a GIS Analyst based in Austin, Texas, built using HTML and CSS. The website features a homepage with an opening statement and highlights of Taylor's GIS experience, along with several tabs: Certifications, Portfolio, About Me, and Contact. The user can navigate through the tabs to explore Taylor's various certifications, view his ArcGIS Online and GitHub projects, learn about his hobbies and activities, and find his contact information.
